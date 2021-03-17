@@ -2,8 +2,54 @@
 	Write your solution here!
    ========================== */
 
+/* Layout */
+
 body {
    margin: 0;
+   /* text-align: center; */
 }
-   
-   
+
+.nav {
+   background-color: #F8F8F8;
+   margin: 0;
+   min-height: 150px;
+
+   display: flex;
+   flex-direction: column;
+   /* text-align: center; */
+   justify-content: center;
+   align-items: center;
+
+}
+
+/* Typography */
+
+.title {
+   color: #143774;
+   font-family: 'Lora', serif;
+   font-weight: 400;
+   font-size: 3rem;
+   margin: 1em;
+
+}
+
+.link {
+   color: #717171;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 800;
+   font-size: 1.25rem;
+   margin: .75em;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.current-page {
+   text-decoration: underline;
+}
+
+/* navigation */
+
+.links {
+   display: flex;
+   flex-direction: column;
+}
