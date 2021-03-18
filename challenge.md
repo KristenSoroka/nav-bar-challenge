@@ -27,11 +27,12 @@ Your main goal is to take the given raw HTML and turn it into a fully functionin
 
 
         *** justify-content v. align-items v.  text-align ***
- -justify-content: moves content on the horizontal axis, use in conjuction with flexbox
+ - justify-content: moves content on the horizontal axis, use in conjuction with flexbox
  -align-items: moves content on the vertical axis, use in conjuction with flex box
 
- -text-align: aligns text in the center of its element.  does not need to be use with flexbox.
+ - text-align: aligns text in the center of its element.  does not need to be use with flexbox.
 
 
- -flex-wrap: wrap -- keeps link words together and from spilling to second line.  will sent the last link item to the next row.
+ - flex-wrap: wrap -- keeps link words together and from spilling to second line.  will sent the last link item to the next row.
 
+- width on links vs max-with in media query: at a certian screen size you don't want the nav bar to be pushed right up against the logo.  It still kinda confuses me but makes more sense than the day before so moving on

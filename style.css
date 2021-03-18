@@ -6,7 +6,7 @@
 
 body {
    margin: 0;
-   /* text-align: center; */
+   text-align: center;
 }
 
 .nav {
@@ -16,7 +16,6 @@ body {
 
    display: flex;
    flex-direction: column;
-   /* text-align: center; */
    justify-content: center;
    align-items: center;
 }
@@ -59,16 +58,17 @@ body {
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   /* width: 60%; */
+   width: 60%;
    margin: 1em;
    justify-content: space-between;
    align-items: center;
-   /* text-align: center; */
+   
 }
 
 @media (min-width: 1000px){
    .links {
       flex-direction: row;
       max-width: 50%;
+      margin-right: 3em;
    }
 }
